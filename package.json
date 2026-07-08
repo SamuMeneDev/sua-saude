@@ -5,6 +5,7 @@
     "mobile": "yarn workspace mobile run start"
   },
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "shared/*"
   ]
 }

@@ -1,0 +1,7 @@
+{
+    "name": "@sua-saude/style",
+    "version": "1.0.0",
+    "description": "Estilizações em comum do projeto",
+    "private": true,
+    "main": "index.ts"
+}
