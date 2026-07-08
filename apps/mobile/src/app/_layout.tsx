@@ -1,10 +1,16 @@
-import { Slot } from "expo-router";
+import { SuaSaudeThemeLight } from "@/style/theme/SuaSaudeTheme";
+import { Stack } from "expo-router";
+import { StatusBar } from "react-native";
 import { PaperProvider } from "react-native-paper";
+
 
 export default function RootLayout() {
   return (
-    <PaperProvider>
-      <Slot />
-    </PaperProvider>
+    <>
+    <StatusBar barStyle="default" />
+      <PaperProvider theme={SuaSaudeThemeLight}>
+        <Stack screenOptions={{headerShown: false, animation: "fade"}} />
+      </PaperProvider>
+    </>
   );
 }
