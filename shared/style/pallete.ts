@@ -1,3 +1,7 @@
+
+/**
+ * Esquema de cores usados no projeto
+ */
 export const pallete = {
     light: {
         "primary": "#0670A8",

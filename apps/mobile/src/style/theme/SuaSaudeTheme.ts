@@ -1,8 +1,12 @@
 import { pallete } from "@sua-saude/style";
+import { configureFonts, MD3LightTheme } from "react-native-paper";
+import { MD3Type } from "react-native-paper/lib/typescript/types";
 
-export const SuaSaudeTheme = {
-    ligth: {
-  "colors": {
+export const SuaSaudeThemeLight =  {
+  ...MD3LightTheme,
+  roundness: 1,
+  colors: {
+    ...MD3LightTheme.colors,
     "primary": pallete.light.primary,
     "onPrimary": pallete.light.onPrimary,
     "primaryContainer": pallete.light.primaryContainer,
@@ -44,7 +48,9 @@ export const SuaSaudeTheme = {
     "onSurfaceDisabled": "rgba(29, 27, 30, 0.38)",
     "backdrop": "rgba(51, 47, 55, 0.4)"
   }
-    },
+}
+
+export const SuaSaudeThemeDark = {
     dark: {
         "colors": {
             "primary": "rgb(220, 184, 255)",
@@ -89,4 +95,4 @@ export const SuaSaudeTheme = {
             "backdrop": "rgba(51, 47, 55, 0.4)"
         }
     }
-}
+  }
