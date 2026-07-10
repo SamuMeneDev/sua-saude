@@ -15,10 +15,11 @@ export {
 export default function RootLayout() {
   const { colorScheme } = useColorScheme();
 
+  
   return (
     <ThemeProvider value={NAV_THEME[colorScheme ?? 'light']}>
       <StatusBar style={colorScheme === 'dark' ? 'light' : 'dark'} />
-      <Stack />
+      <Stack screenOptions={{headerShown: false, animation: "fade"}} />
       <PortalHost />
     </ThemeProvider>
   );
