@@ -55,6 +55,9 @@ export default function Login() {
         <Button className="bg-sky-600 active:bg-sky-700">
           <Text className="text-xs text-white">Login</Text>
         </Button>
+        <Button onPress={()=>router.navigate("/home")} variant="outline">
+          <Text className="text-xs">Entrar sem login</Text>
+        </Button>
 
         <Button variant="link" onPress={()=> router.navigate("/criar-conta")}>
           <Text className="text-stone-500 font-normal">Não tem uma conta? Crie uma conta</Text>
