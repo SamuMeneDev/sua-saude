@@ -1,0 +1,1 @@
+export type GlicemiaStatus = "Diabetes" | "Pré-Diabetes" | "Normal" | "Hipoglicemia";

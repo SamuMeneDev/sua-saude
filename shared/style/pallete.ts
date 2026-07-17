@@ -12,5 +12,11 @@ export const pallete = {
         "onSecondary": "#18374C",
         "secondaryContainer": "#CCE6F9",
         "onSecondaryContainer": "#3B6A8A",
-    } 
+    },
+    glicemia: {
+    hiploglicemia: "#700606",
+    normal: "#13AF35",
+    prediabetes: "#13AF35",
+    diabetes: "#DB1616",
+  },
 }

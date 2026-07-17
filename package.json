@@ -2,7 +2,8 @@
   "name": "sua-saude",
   "private": true,
   "scripts": {
-    "mobile": "yarn workspace mobile run dev"
+    "mobile": "yarn workspace mobile run dev",
+    "mobile:a": "yarn workspace mobile run android"
   },
   "workspaces": [
     "apps/*",
