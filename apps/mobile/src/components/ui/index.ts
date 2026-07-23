@@ -3,3 +3,7 @@ export * from "./input";
 export * from "./button";
 export * from "./checkbox";
 export * from "./select";
+export * from "./accordion";
+export * from "./toggle-group";
+export * from "./icon";
+export * from "./badge";

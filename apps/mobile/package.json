@@ -10,8 +10,6 @@
     "clean": "rm -rf .expo node_modules"
   },
   "dependencies": {
-    "@sua-saude/data": "^1.0.0",
-    "@sua-saude/types": "^1.0.0",
     "@rn-primitives/accordion": "^1.5.2",
     "@rn-primitives/alert-dialog": "^1.5.2",
     "@rn-primitives/aspect-ratio": "^1.5.2",
@@ -36,11 +34,13 @@
     "@rn-primitives/toggle": "^1.5.2",
     "@rn-primitives/toggle-group": "^1.5.2",
     "@rn-primitives/tooltip": "^1.5.2",
+    "@sua-saude/data": "*",
+    "@sua-saude/types": "*",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "expo": "~56.0.16",
     "expo-constants": "~56.0.21",
-    "expo-linking": "~56.0.14",
+    "expo-linking": "~56.0.16",
     "expo-router": "~56.2.15",
     "expo-splash-screen": "~56.0.13",
     "expo-status-bar": "~56.0.4",

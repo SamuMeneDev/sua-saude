@@ -1,5 +1,4 @@
 export const listaCategoria = [
-  "Todos",
   "Criança",
   "Adulto",
   "Específico",

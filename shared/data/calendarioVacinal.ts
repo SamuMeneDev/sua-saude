@@ -1,4 +1,4 @@
-import { ListaVacina } from "../types/ListaVacina";
+import { ListaVacina } from "@sua-saude/types";
 
 export const calendarioVacinal: ListaVacina[] = [
   {

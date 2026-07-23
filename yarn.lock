@@ -3674,17 +3674,17 @@ expo-asset@~56.0.20:
     "@expo/image-utils" "^0.10.3"
     expo-constants "~56.0.21"
 
-expo-constants@~56.0.20:
-  version "56.0.20"
-  resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-56.0.20.tgz#e28a4994cd552d25e01fd01546e9c19821c71a08"
-  integrity sha512-4HgoVvUiMvcqujr/CUj7L1tumLWj8WX0PLM77OriDPoaJrMEwUHd841m4o4IoUyMPVT8XTiTiPFwJtGali8+9Q==
-  dependencies:
-    "@expo/env" "~2.3.1"
-
 expo-constants@~56.0.21:
   version "56.0.21"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-56.0.21.tgz#49564028edefe7c920cf4acf41ccfe185b85ed85"
   integrity sha512-q9LkK9tNTW2z/5hXgpwWoCXO1fBrqn4FgwTiLerM9WOu1wtg99NevAtG3BEG8t5Awtub+NsLidiFZzBat45RKw==
+  dependencies:
+    "@expo/env" "~2.3.1"
+
+expo-constants@~56.0.22:
+  version "56.0.22"
+  resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-56.0.22.tgz#df0c7bb02574801ea034d832c3baf5e862e50e19"
+  integrity sha512-XNRssTBSGDR3gsaYhhp513WdpPsLi89wgfYT0wLsCtMY8vXAgXR4jNlaYGXFCnvNVbx9gEDSBHOSntqRK1i8Lw==
   dependencies:
     "@expo/env" "~2.3.1"
 
@@ -3710,12 +3710,12 @@ expo-keep-awake@~56.0.3:
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-56.0.3.tgz#88991b4859c77af73cf68c500839a18fe5d8febe"
   integrity sha512-CLMJXtEiMKknD3Rpm8CRwE6ZJUzu2yCEmRk1sgfHAJ1zIbuEWY3dpPDubtsnuzWm+2k6Sru+yaFbYsvPWmTiBA==
 
-expo-linking@~56.0.14:
-  version "56.0.15"
-  resolved "https://registry.yarnpkg.com/expo-linking/-/expo-linking-56.0.15.tgz#51b9899f9475c694398ecb82b3d51e24a88dbc75"
-  integrity sha512-V3tkCxHIWO624ayw2L5Nfi0/bPgYy/0MgmoQR7g3FAKF4nyAayK8IhgAInz4MZ5Ao5Bb+5uZWDdUaS4yyEb+Gw==
+expo-linking@~56.0.16:
+  version "56.0.16"
+  resolved "https://registry.yarnpkg.com/expo-linking/-/expo-linking-56.0.16.tgz#332528ccfa8297f231a5e2b15641280a0d3a3186"
+  integrity sha512-rI/ZE22t0sgYqnE0WnDUbld/vTzOiTxEX/uKuNFGTIUZ9tmes/nvcqJufEMqRV7u6REUEIBCFxbROOBibvwG4g==
   dependencies:
-    expo-constants "~56.0.20"
+    expo-constants "~56.0.22"
     invariant "^2.2.4"
 
 expo-modules-autolinking@~56.0.20:

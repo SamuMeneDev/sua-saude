@@ -1,5 +1,12 @@
 {
     "name": "@sua-saude/data",
+    "description": "Dados estáticos usados na aplicação para povoamento ou mesmo só para exibição.",
     "private": "true",
-    "version": "1.0.0"
+    "main": "index.ts",
+    "types": "index.ts",
+    "version": "1.0.0",
+    "dependencies": {
+        "@sua-saude/types": "*",
+        "@sua-saude/styles": "*"
+    }
 }
