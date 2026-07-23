@@ -7,3 +7,4 @@ export * from "./accordion";
 export * from "./toggle-group";
 export * from "./icon";
 export * from "./badge";
+export * from "./separator";
