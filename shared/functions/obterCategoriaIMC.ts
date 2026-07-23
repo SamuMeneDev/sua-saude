@@ -1,5 +1,5 @@
-import { listaCategoriaIMC } from "../data";
-import { CategoriaIMC } from "../types/CategoriaIMC";
+import { listaCategoriaIMC } from "@sua-saude/data";
+import { CategoriaIMC } from "@sua-saude/types";
 
 export function obterStatusIMC(imc: number): CategoriaIMC {
   const resultado = listaCategoriaIMC.find((item) => imc >= item.de && imc <= item.ate);

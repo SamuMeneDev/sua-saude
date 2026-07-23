@@ -1,4 +1,4 @@
-import { pallete } from "../style/pallete";
+import { pallete } from "@sua-saude/styles";
 
 export const statusGlicemia = {
   Hipoglicemia: {

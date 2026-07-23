@@ -6,3 +6,5 @@ export const TELEFONES_EMERGENCIA = {
   samu: 192,
   bombeiros: 193,
 };
+
+export const SUS_VACINA_URL = "https://www.gov.br/saude/pt-br/vacinacao";

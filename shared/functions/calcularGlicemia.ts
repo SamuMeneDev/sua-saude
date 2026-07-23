@@ -1,4 +1,4 @@
-import {type GlicemiaStatus} from "../types/GlicemiaStatus";
+import {type GlicemiaStatus} from "@sua-saude/types";
 
 export function calcularGlicemia(valor: number, isJejum: boolean): GlicemiaStatus {
     if (isJejum) {
