@@ -16,7 +16,7 @@ export function VacinaList() {
 
     const { tipo } = useLocalSearchParams();
     return (
-        <Accordion type="multiple">
+        <Accordion type="multiple" className="h-full">
             <FlatList
                 data={calendarioVacinal.filter(v=>aplicarFiltro(v, tipo))}
                 renderItem={({item})=>(
